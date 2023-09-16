@@ -1,36 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo Formulario # 2</title>
 </head>
+
 <body>
-    
+
     <h1>Registration Form</h1>
 
     <form action="">
-        User id: &nbsp; &nbsp;<input type="text" pattern="[0-9]{5,12}" required> <br> <br>
-        Password: <input type="password" pattern="[a-zA-Z0-9]{7,12}"required> <br> <br>
-        Name: &nbsp; &nbsp; <input type="text" pattern="[a-zA-Z ]*" required> <br> <br>
-        Adress: &nbsp; &nbsp; <input type="text"> <br> <br>
-        country: 
-        <select name="" required>
-            <option value="">(please select a country)</option>
-            <option value="">Colombia</option>
-            <option value="">Argentina</option>
-            <option value="">Peru</option>
-            <option value="">Mexico</option>
-           
-        </select> <br> <br>
-        ZIP Code: <input type="text" pattern="[0-9]" required> <br> <br>
-        Email: <input type="email" required> <br> <br>
-        Sex:  <input type="radio" name="Sexo" required> Male <input type="radio"name="Sexo" required> Female <br> <br>
-        Language: <input type="checkbox" checked>English <input type="checkbox">Non English <br> <br>
+        <table>
+            <tr>
+                <td>User id:</td>
+                <td><input type="text" pattern="[0-9]{5,12}" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" pattern="[a-zA-Z0-9]{7,12}" required></td>
+            </tr>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" pattern="[a-zA-Z ]*" required></td>
+            </tr>
+            <tr>
+                <td> Adress: </td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td> country: </td>
+                <td><select name="" required>
+                        <option value="">(please select a country)</option>
+                        <option value="">Colombia</option>
+                        <option value="">Argentina</option>
+                        <option value="">Peru</option>
+                        <option value="">Mexico</option>
+
+                    </select> </td>
+            </tr>
+            <tr>
+                <td>ZIP Code:</td>
+                <td><input type="text" pattern="[0-9]" required> </td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td>Sex:</td>
+                <td><input type="radio" name="Sexo" required> Male <input type="radio" name="Sexo" required> Female</td>
+            </tr>
+            <tr>
+                <td>Language:</td>
+                <td><input type="checkbox" checked>English <input type="checkbox">Non English</td>
+            </tr>
+        </table>
+
         <textarea name="" id="" cols="30" rows="10"></textarea> <br> <br>
 
-
-     &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;<input type="submit" value="Submit" >
+        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="submit" value="Submit">
     </form>
 </body>
+
 </html>
